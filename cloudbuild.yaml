@@ -1,5 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/singular-willow-339022/first_app', '.']
+  args: ['build', '-t', 'gcr.io/ceremonial-rush-446209-c7/pca_model', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/singular-willow-339022/first_app']
+  args: ['push', 'gcr.io/ceremonial-rush-446209-c7/pca_model']
+
+# Projek ID -> ceremonial-rush-446209-c7 ( Research ) ->  pca_model ( Github Repo )
